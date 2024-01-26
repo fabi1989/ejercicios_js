@@ -127,7 +127,7 @@ console.log("la suma es:", `${nume} \n la multi es: ${multi}`);
 const multiplica = [2, 2];
 const totalmulti = multiplica.reduce((a, b) => a * b);
 console.log("el total es:", `${totalmulti}`);
-//----------------------------------------------------
+//--------------------------------------------------
 function arbol(narbol) {
   for (let i = 0; i < narbol; i++) {
     rarbol = "";
