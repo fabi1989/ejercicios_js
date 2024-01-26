@@ -147,4 +147,4 @@ console.log("la suma es:", st);
 const Pruebap = [1,2,2,3,3,4,5]
 const unico = [...new Set(Pruebap)];
 console.log(unico);
-//--------------------
+//---------------------
