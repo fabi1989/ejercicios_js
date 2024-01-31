@@ -181,9 +181,14 @@ console.log(`${result}`)
 //===========forEach,itera contenido de array, y muestra indice
 const prue =[4,1,3,6,2,9]
 const nprue = prue.forEach((element,i)=>{
-  console.log(`${element} el indice es ${i}`)
+  console.log(`${element}\, el indice es ${i}`)
 })
 
+//=========filter(pares, impares)
+
+const numpar = [1,2,3,4,5,6,7]
+const nueva = numpar.filter(x=>x % 2 ==0)
+console.log(nueva)
 
 
 
