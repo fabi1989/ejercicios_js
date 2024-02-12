@@ -185,10 +185,10 @@ const nprue = prue.forEach((element,i)=>{
 })
 
 //=========filter(pares, impares)
-
 const numpar = [1,2,3,4,5,6,7]
 const nueva = numpar.filter(x=>x % 2 ==0)
 console.log(nueva)
+//=================
 
 
 
