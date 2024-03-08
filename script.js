@@ -40,7 +40,7 @@ vocales.forEach(function (vocal) {
 //------------------mostrar en pantalla
 let numero = 0;
 while (numero <= 10) {
-  document.write(numero + "<br>");
+  //document.write(numero + "<br>");
   numero = numero + 1;
 }
 //----------------------
@@ -189,8 +189,14 @@ const numpar = [1,2,3,4,5,6,7]
 const nueva = numpar.filter(x=>x % 2 ==0)
 console.log(nueva)
 //=========
-
-
+p=6
+for (i=0;i<p.length;i++){
+  espacio=" ";
+  for (j=0;j,p+1;j++){
+    p=p="*";
+  }
+  console.log(p);
+}
 
 
 
