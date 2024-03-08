@@ -189,14 +189,16 @@ const numpar = [1,2,3,4,5,6,7]
 const nueva = numpar.filter(x=>x % 2 ==0)
 console.log(nueva)
 //=========
-p=6
-for (i=0;i<p.length;i++){
-  espacio=" ";
-  for (j=0;j,p+1;j++){
-    p=p="*";
+function pi (npi){
+  for (let i = 0; i< npi; i++) {
+  let pi = "";
+  for (j=0;j<i+1;j++){
+    pi = pi + "*";
   }
-  console.log(p);
+  console.log(pi);
+      }
 }
+pi(5);
 
 
 
